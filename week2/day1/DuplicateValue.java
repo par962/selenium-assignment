@@ -13,14 +13,15 @@ public class DuplicateValue {
 			for (int j = i+1; j < length; j++) {
 			if (arr[i] == arr[j]) {
 				count++;
-				
+				System.out.println("The Duplicate Element" + arr[i]);	
 			}
-				if (count>0) {
-					System.out.println("The Duplicate Element" + arr[i]);
+			}
+			
 					
-				}
+					
+				
 			}
 		}
 	}
 
-}
+
